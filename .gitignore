@@ -1,0 +1,26 @@
+# Dados sensíveis / gerados em runtime — nunca versionar
+atividades_pd.db
+colaboradores.json
+*.wav
+
+# Filas de captura (áudio e texto pendente)
+pendentes/*
+!pendentes/.gitkeep
+pendentes_texto/*
+!pendentes_texto/.gitkeep
+processados/*
+!processados/.gitkeep
+
+# Projeto à parte (fotos e planilha de peças) — não faz parte da automação de atividades
+fotos_pecas_tera/
+
+# Estado interno da checagem periódica / lista diária
+.ultima_checagem.txt
+.ultima_lista_diaria.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# Configuração local do Claude Code
+.claude/settings.local.json
