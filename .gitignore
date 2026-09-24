@@ -14,6 +14,10 @@ processados/*
 # Projeto à parte (fotos e planilha de peças) — não faz parte da automação de atividades
 fotos_pecas_tera/
 
+# Projeto à parte (Agenda Artesã) — repositório git próprio e independente,
+# não faz parte da automação de atividades do P&D
+agenda-artesa/
+
 # Estado interno da checagem periódica / lista diária
 .ultima_checagem.txt
 .ultima_lista_diaria.txt
